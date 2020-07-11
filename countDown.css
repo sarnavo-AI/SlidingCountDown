@@ -1,0 +1,229 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.main-countdown {
+    position: relative;
+    width: auto;
+    height: 180px;
+    border: 2px solid black;
+    color: white;
+    font-size: 145px;
+}
+
+.align-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-100%);
+    width: 100px;
+    height: 180px;
+    /* border: 2px solid green; */
+    border: 1px solid white;
+    opacity: 0;
+}
+
+.align-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-100%);
+    width: 100px;
+    height: 180px;
+    margin: 0px;
+    /* border: 2px solid red; */
+    border: 1px solid white;
+}
+
+.main-align {
+    display: inline-block;
+    width: 100px;
+    height: 180px;
+    margin: 0px;
+    padding: 0px;
+    box-shadow: 3px 3px 15px 1px rgba(255,252,255,0.83);
+}
+
+.align-left {
+    margin-left: 10px;
+}
+
+span {
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+    font-weight: 900;
+    font-size: 90px;
+}
+
+#span-hour-min {
+    left: 51.5%;
+}
+
+#span-min-sec {
+    left: 76.5%;
+}
+
+.main-tens-hour {
+    margin-left: 60px;
+}
+
+#copyright {
+    position: absolute;
+    bottom: 10px;
+    right: 15px;
+    color: white;
+    font-size: 18px;
+    text-shadow: 4px 2px 6px rgba(255, 255, 255, 1);
+}
+
+h1 {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 5vw;
+    color: white;
+    letter-spacing: 5px;
+    font-weight: 300;
+    text-shadow: 4px 2px 6px rgb(255, 255, 255);
+}
+
+#timeUp {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translateX(-50%);
+    /* border: 2px solid white; */
+    color: white;
+    font-size: 80px;
+    opacity: 0;    
+    transition: 0.8s ease;
+}
+
+/* Days */
+.ones-day-overlay, .ones-day {
+    transition: 0.6s linear;
+}
+
+.tens-day-overlay, .tens-day {
+    transition: 0.6s linear;
+}
+
+.main-tens-day.temp-panel-1 .tens-day-overlay {
+    transform: translateY(0%);
+    opacity: 1;
+}
+
+.main-tens-day.temp-panel-1 .tens-day {
+    transform: translateY(0%);
+    opacity: 0;
+}
+
+.main-ones-day.temp-panel-2 .ones-day-overlay {
+    transform: translateY(0%);
+    opacity: 1;
+}
+
+.main-ones-day.temp-panel-2 .ones-day {
+    transform: translateY(0%);
+    opacity: 0;
+}
+
+
+/* Hours */
+.ones-hour-overlay, .ones-hour {
+    transition: 0.6s linear;
+}
+
+.tens-hour-overlay, .tens-hour {
+    transition: 0.6s linear;
+}
+
+.main-tens-hour.temp-panel-3 .tens-hour-overlay {
+    transform: translateY(0%);
+    opacity: 1;
+}
+
+.main-tens-hour.temp-panel-3 .tens-hour {
+    transform: translateY(0%);
+    opacity: 0;
+}
+
+.main-ones-hour.temp-panel-4 .ones-hour-overlay {
+    transform: translateY(0%);
+    opacity: 1;
+}
+
+.main-ones-hour.temp-panel-4 .ones-hour {
+    transform: translateY(0%);
+    opacity: 0;
+}
+
+
+/* Minutes */
+.ones-min-overlay, .ones-min {
+    transition: 0.6s linear;
+}
+
+.tens-min-overlay, .tens-min {
+    transition: 0.6s linear;
+}
+
+.main-tens-min.temp-panel-5 .tens-min-overlay {
+    transform: translateY(0%);
+    opacity: 1;
+}
+
+.main-tens-min.temp-panel-5 .tens-min {
+    transform: translateY(0%);
+    opacity: 0;
+}
+
+.main-ones-min.temp-panel-6 .ones-min-overlay {
+    transform: translateY(0%);
+    opacity: 1;
+}
+
+.main-ones-min.temp-panel-6 .ones-min {
+    transform: translateY(0%);
+    opacity: 0;
+}
+
+/* Seconds */
+.ones-sec-overlay, .ones-sec {
+    transition: 0.6s linear;
+}
+
+.tens-sec-overlay, .tens-sec {
+    transition: 0.6s linear;
+}
+
+.main-tens-sec.temp-panel-7 .tens-sec-overlay {
+    transform: translateY(0%);
+    opacity: 1;
+}
+
+.main-tens-sec.temp-panel-7 .tens-sec {
+    transform: translateY(0%);
+    opacity: 0;
+}
+
+.main-ones-sec.temp-panel-8 .ones-sec-overlay {
+    transform: translateY(0%);
+    opacity: 1;
+}
+
+.main-ones-sec.temp-panel-8 .ones-sec {
+    transform: translateY(0%);
+    opacity: 0;
+}

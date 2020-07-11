@@ -1,0 +1,75 @@
+<html>
+    <head>
+        <title>Countdown Timer</title>
+        <link rel="stylesheet" href="countDown.css">
+        <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale = 1.0">
+        <!-- <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'> -->
+        <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <style>
+            @font-face {
+                font-family: digital;
+                src: url(digital-7.ttf);
+            }
+            .main-countdown {
+                font-family: digital;
+            }
+            h1, p {
+                font-family: 'lato';
+            }
+        </style>
+    </head>
+    <body>
+        <h1>CountDown Timer</h1>
+        <div class="main-countdown">
+            <div class="main-tens-day main-align ">
+                <div class="align-top tens-day-overlay"></div>
+                <div class="align-bottom tens-day"></div>
+            </div>
+
+            <div class="main-ones-day main-align">
+                <div class="align-top ones-day-overlay"></div>
+                <div class="align-bottom ones-day"></div>
+            </div>
+
+            <!-- <span id="span-day-hour"> : </span> -->
+
+            <div class="main-tens-hour main-align align-left">
+                <div class="align-top tens-hour-overlay"></div>
+                <div class="align-bottom tens-hour"></div>
+            </div>
+
+            <div class="main-ones-hour main-align">
+                <div class="align-top ones-hour-overlay"></div>
+                <div class="align-bottom ones-hour"></div>
+            </div>
+
+            <span id="span-hour-min"> : </span>
+
+            <div class="main-tens-min main-align align-left">
+                <div class="align-top tens-min-overlay"></div>
+                <div class="align-bottom tens-min"></div>
+            </div>
+
+            <div class="main-ones-min main-align">
+                <div class="align-top ones-min-overlay"></div>
+                <div class="align-bottom ones-min"></div>
+            </div>
+
+            <span id="span-min-sec"> : </span>
+
+            <div class="main-tens-sec main-align align-left">
+                <div class="align-top tens-sec-overlay"></div>
+                <div class="align-bottom tens-sec"></div>
+            </div>
+
+            <div class="main-ones-sec main-align">
+                <div class="align-top ones-sec-overlay"></div>
+                <div class="align-bottom ones-sec"></div>
+            </div>
+        </div>
+        <p id="timeUp">Time's Up!</p>
+        <p id="copyright">&copy; SARNAVO SARKAR PRODUCTION</p>
+        <script src="countDown.js"></script>
+    </body>
+</html>

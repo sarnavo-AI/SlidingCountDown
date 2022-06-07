@@ -1,6 +1,6 @@
 $(document).ready(function() {
     
-    const timeEnd = new Date("July 20, 2022 23:57:59");
+    const timeEnd = new Date("June 20, 2022 23:57:59");
     
     /////////////////////////////////////////////
     const oneSecMain = document.querySelector('.main-ones-sec');
